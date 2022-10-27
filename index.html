@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="images/favicon.ico" />
+    <title>Practice</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar container">
+        <!-- nav logo -->
+        <div>
+          <a href="https://www.wikipedia.org/" target="_blank"
+            ><img src="images/logo.svg" alt="Logo" class="logo"
+          /></a>
+        </div>
+        <!-- nav logo -->
+        <!-- nav links -->
+        <!-- unordered list practice -->
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#my-works" class="nav-link">My Works</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+        </ul>
+        <!-- unordered list practice -->
+        <!-- nav links -->
+
+        <!-- hamburger Menu -->
+        <div class="hamburger-menu">
+          <div class="hamburger"></div>
+        </div>
+
+        <!-- hamburger Menu -->
+      </nav>
+    </header>
+    <!-- Hero Section -->
+    <main>
+      <div class="hero container">
+        <div class="hero-content">
+          <p class="designation">Web Frontend Web Developer</p>
+          <h1 class="hero-title">Hey there, I am a frontend web developer</h1>
+          <p>I have experiences working with HTML, CSS and JAVASCRIPT</p>
+        </div>
+        <div class="btn-container">
+          <button class="btn">My Works</button>
+        </div>
+      </div>
+    </main>
+    <!-- Hero Section -->
+    <!-- My Works Section -->
+    <section id="my-works">
+      <div class="my-works container">
+        <h1 class="my-work-title">My Works</h1>
+        <p class="my-work-p-title">
+          I have learned some tags of html. They are described bellow in the
+          <b>List</b>.
+        </p>
+        <div class="list-container">
+          <!-- list practice -->
+          <div class="list">
+            <p class="list-heading"><b>Ordered List</b></p>
+            <ol class="ordered-list" type="1">
+              <li>HTML Formatting Tags</li>
+              <li>Attributes</li>
+              <li>Comment Tag</li>
+              <li>Link/Path</li>
+              <li>Image</li>
+              <li>Favicon</li>
+              <li>Audio</li>
+              <li>Video</li>
+              <li>Ifram</li>
+            </ol>
+          </div>
+          <div class="list">
+            <p class="list-heading"><b>Unordered List</b></p>
+            <ul class="unordered-list" type="1">
+              <li>HTML Formatting Tags</li>
+              <li>Attributes</li>
+              <li>Comment Tag</li>
+              <li>Link/Path</li>
+              <li>Image</li>
+              <li>Favicon</li>
+              <li>Audio</li>
+              <li>Video</li>
+              <li>Ifram</li>
+            </ul>
+          </div>
+          <!-- list practice -->
+        </div>
+        <hr />
+        <!-- video practice -->
+        <div class="video-container">
+          <p class="video-title">Video Practice</p>
+          <div class="video">
+            <div class="video-one">
+              <p>
+                I Want a world without any discrimination - A borderless world
+                without any segregation and exploitation.
+              </p>
+              <video width="320" height="190" controls>
+                <source src="video/video_two.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <div class="video-two">
+              <video width="320" height="190" controls>
+                <source src="video/video_one.mp4" type="video/mp4" />
+              </video>
+              <p>My mood right now.</p>
+            </div>
+          </div>
+        </div>
+        <!-- video practice -->
+        <hr />
+      </div>
+    </section>
+    <section class="iframe-section">
+      <!-- iframes practice -->
+      <div class="iframe-nav">
+        <div class="iframe-nav-container container">
+          <ul>
+            <li>
+              <a
+                href="https://joygoswami.github.io/Tribute-to-My-Cat-Final/"
+                target="iframe"
+                >My Site</a
+              >
+            </li>
+            <li><a href="http://www.bitm.org.bd/" target="iframe">BITM</a></li>
+            <li>
+              <a href="http://www.educationboardresults.gov.bd/" target="iframe"
+                >Result</a
+              >
+            </li>
+          </ul>
+        </div>
+        <iframe src="http://app1.nu.edu.bd/" name="iframe"></iframe>
+      </div>
+      <!-- iframe practice -->
+    </section>
+    <!-- My Works Section -->
+    <!-- contact section -->
+    <section id="contact">
+      <p class="practice">Form Practice</p>
+      <div class="contact-container container">
+        <!-- form practice -->
+        <div class="box form">
+          <fieldset>
+            <legend>Register</legend>
+            <form method="get">
+              <div class="inputs">
+                <label>First Name:</label><br />
+                <input
+                  type="text"
+                  name="your_first_name"
+                  required
+                  placeholder="Input Your First name"
+                />
+              </div>
+              <div class="inputs">
+                <label>Last Name:</label><br />
+                <input
+                  type="text"
+                  name="your_last_name"
+                  required
+                  placeholder="Input Your Last name"
+                />
+              </div>
+              <div class="inputs">
+                <label>Your Email:</label><br />
+                <input
+                  type="email"
+                  name="your_email"
+                  required
+                  placeholder="Input Your Email"
+                />
+              </div>
+              <div class="inputs">
+                <label>Age:</label><br />
+                <input
+                  type="number"
+                  name="age"
+                  required
+                  placeholder="Input Your Age"
+                  min="0"
+                  max="100"
+                />
+              </div>
+              <div class="inputs">
+                <label>Your Facebook Page:</label><br />
+                <input
+                  type="url"
+                  name="fb_page"
+                  required
+                  placeholder="Input Your Facebook Page Url"
+                />
+              </div>
+              <div class="inputs">
+                <label>Your Mobile Number:</label><br />
+                <input
+                  type="tel"
+                  name="number"
+                  required
+                  placeholder="Input Your Nobile Number"
+                />
+              </div>
+              <div class="input-btn">
+                <input class="sign-up" type="submit" value="Sign Up" />
+                <input class="reset" type="reset" value="Reset" />
+              </div>
+            </form>
+          </fieldset>
+        </div>
+        <!-- form practice -->
+        <!-- iframe location practice -->
+        <div class="box location">
+          <div class="address-box">
+            <div class="address">
+              <address>
+                BDBL Bhaban (3rd Floor - East),<br />
+                Kawran Bazar,<br />
+                Dhaka-1215
+              </address>
+            </div>
+            <div class="google-address">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14607.609767991682!2d90.3932688!3d23.7508581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e70f117856f0c22!2sBASIS%20Institute%20of%20Technology%20%26%20Management%20(BITM)!5e0!3m2!1sen!2sin!4v1666855651064!5m2!1sen!2sin"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+        <!-- iframe location practice -->
+      </div>
+    </section>
+    <!-- contact section -->
+    <footer id="about">
+      <p>&#169; Joy Goswami</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
